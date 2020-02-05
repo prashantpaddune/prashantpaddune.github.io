@@ -2220,7 +2220,6 @@ fieldset:disabled a.btn {
 
 .btn-light {
   color: #212529;
-  background-color: #f8f9fa;
   border-color: #f8f9fa; }
   .btn-light:hover {
     color: #212529;
@@ -2231,7 +2230,6 @@ fieldset:disabled a.btn {
     box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5); }
   .btn-light.disabled, .btn-light:disabled {
     color: #212529;
-    background-color: #f8f9fa;
     border-color: #f8f9fa; }
   .btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active,
   .show > .btn-light.dropdown-toggle {
@@ -5278,9 +5276,6 @@ a.bg-danger:hover, a.bg-danger:focus,
 button.bg-danger:hover,
 button.bg-danger:focus {
   background-color: #bd2130 !important; }
-
-.bg-light {
-  background-color: #f8f9fa !important; }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
@@ -8583,8 +8578,6 @@ h1, h2, h3, h4, h5,
   font-weight: 700;
   color: #000000; }
 
-.bg-light {
-  background: #f8f9fa !important; }
 
 .bg-primary {
   background: #0075f6; }
@@ -8952,7 +8945,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 5em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -9592,4 +9585,8 @@ footer {
   width:50px;
   height:50px;
   margin-right: 10px;
+}
+
+#fh5co-about, #fh5co-resume, #fh5co-skills, #fh5co-started, #fh5co-work, #fh5co-blog, #fh5co-pricing, #fh5co-contact {
+  clear: both;
 }
