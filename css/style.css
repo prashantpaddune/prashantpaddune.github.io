@@ -8945,30 +8945,17 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 5em 0;
+  padding: 7em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 1em 0 !important; } }
-  @media (max-width: 991.98px) {
+      padding: 2em 0 !important; } }
+  @media (min-width: 766px) and (max-width: 991.98px) {
     .ftco-section {
-      padding: 1em 0 !important; } }    
+      padding: 4em 0 !important; } }
   @media (max-width: 1199.98px) {
     .ftco-section {
       padding: 7em 0; } }
-      
-.ftco-section2 {
-  padding: 2em 0;
-  position: relative; }
-  @media (max-width: 767.98px) {
-    .ftco-section {
-      padding: 4em 0; } }
-      
-.ftco-section3 {
-  position: relative; }
-  @media (max-width: 767.98px) {
-    .ftco-section {
-      padding: 2em 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
