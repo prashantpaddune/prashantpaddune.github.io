@@ -1,5 +1,6 @@
 import React from 'react';
 import "../App.css";
+import Navbar from "./Navbar";
 
 class HomeComponent extends React.Component {
 
@@ -17,11 +18,19 @@ class HomeComponent extends React.Component {
 
         if (loading) { // if your component doesn't have to wait for an async action, remove this block
             return (
-                <h1>hi</h1>
+                <div className="animate__animated animate__fadeIn animate__bounce">
+                    <img src="https://prashantworld.me/images/logo_new.png"
+                         className="img-responsive img-fluid loaderLogo animate__animated animate__fadeOut animate__delay-2s"
+                         height="150" width="150" alt="loader"
+                    />
+                </div>
+
             );
         }
         return (
-            <div>Welcome to Prashant World</div>
+            <header>
+                <Navbar/>
+            </header>
         );
     }
 }
