@@ -4,7 +4,10 @@ import "../Styles/navbar.css";
 
 const currentTab = (history, path) => {
     if (history.location.pathname === path){
-        return { "font-weight": "bold" };
+        return {
+            "font-weight": "bold",
+            "color": "#1775F6"
+        };
     } else {
         return { "font-weight": "normal" };
     }
@@ -35,16 +38,16 @@ const Navbar = ({ history }) => {
                         <li className="nav-item active mr-3">
                             <Link style={currentTab(history, "/")} className="nav-link" to="/">Home</Link>
                         </li>
-                        <li className="nav-item  mr-3">
+                        <li className="nav-item active mr-3">
                             <Link style={currentTab(history, "/education")} className="nav-link" to="/education">Education</Link>
                         </li>
-                        <li className="nav-item mr-3">
+                        <li className="nav-item active mr-3">
                             <Link style={currentTab(history, "/experience")} className="nav-link" to="/experience">Experience</Link>
                         </li>
-                        <li className="nav-item mr-3">
+                        <li className="nav-item active mr-3">
                             <Link style={currentTab(history, "/projects")} className="nav-link" to="/projects">Projects</Link>
                         </li>
-                        <li className="nav-item mr-3">
+                        <li className="nav-item active mr-3">
                             <Link style={currentTab(history, "/contact")} className="nav-link" to="/contact">Contact Me</Link>
                         </li>
                     </ul>

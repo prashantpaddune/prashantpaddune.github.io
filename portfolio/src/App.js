@@ -7,6 +7,7 @@ import EducationComponent from "./Components/EducationComponent";
 import ExperienceComponent from "./Components/ExperienceComponent";
 import ProjectsComponent from "./Components/ProjectsComponent";
 import ContactComponent from "./Components/ContactComponent";
+import Footer from "./Components/Footer";
 
 class App extends React.Component {
 
@@ -42,6 +43,7 @@ class App extends React.Component {
                         <Route path="/projects" exact component={ProjectsComponent} />
                         <Route path="/contact" exact component={ContactComponent} />
                     </Switch>
+                <Footer/>
             </BrowserRouter>
         )
   }
