@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prashant Paddune - Senior Software Engineer (React, TypeScript, Next.js, Node.js)</title>
+  <meta name="description" content="Prashant Paddune - Senior Software Engineer. React, TypeScript, Next.js, Node.js. 5+ years building production web applications, component libraries, and testing infrastructure.">
+  <meta name="author" content="Prashant Paddune">
+  <meta name="keywords" content="Prashant Paddune, Senior Software Engineer, Frontend Engineer, Senior Frontend Engineer, React Developer, TypeScript, Next.js, Node.js, JavaScript, UI Engineer, Mumbai, Altrata, Cogoport">
+
+  <meta property="og:title" content="Prashant Paddune - Senior Software Engineer">
+  <meta property="og:description" content="Senior Software Engineer. React, TypeScript, Next.js, Node.js. 5+ years building production web applications.">
+  <meta property="og:type" content="profile">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Prashant Paddune",
+    "jobTitle": "Senior Software Engineer",
+    "url": "https://prashantpaddune.github.io/",
+    "sameAs": [
+      "https://linkedin.com/in/prashantp01",
+      "https://github.com/prashantpaddune"
+    ],
+    "email": "mailto:padadunep@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mumbai",
+      "addressCountry": "India"
+    },
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Altrata"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Patkar Varde College"
+    },
+    "knowsAbout": [
+      "React", "TypeScript", "Next.js", "JavaScript", "GraphQL",
+      "Frontend Engineering", "Web Accessibility", "Performance Optimization",
+      "Playwright", "CI/CD", "Docker"
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #0f1115;
+      --card: #171a21;
+      --text: #e8e8ea;
+      --muted: #9a9ea6;
+      --accent: #6ee7b7;
+      --border: #262a33;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 4px;
+      letter-spacing: -0.02em;
+    }
+    .role {
+      color: var(--accent);
+      font-size: 1.05rem;
+      margin: 0 0 6px;
+      font-weight: 500;
+    }
+    .location {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 24px;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 40px;
+    }
+    .links a {
+      color: var(--text);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      transition: border-color 0.15s ease, color 0.15s ease;
+    }
+    .links a:hover { border-color: var(--accent); color: var(--accent); }
+    .links a.primary {
+      background: var(--accent);
+      color: #0f1115;
+      border-color: var(--accent);
+      font-weight: 600;
+    }
+    .links a.primary:hover { opacity: 0.9; color: #0f1115; }
+
+    section { margin-top: 44px; }
+    .section-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+
+    .entry { margin-bottom: 28px; }
+    .entry:last-child { margin-bottom: 0; }
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 4px 12px;
+    }
+    .entry-title { font-weight: 600; font-size: 1rem; }
+    .entry-date { color: var(--muted); font-size: 0.85rem; white-space: nowrap; }
+    .entry-sub {
+      color: var(--accent);
+      font-size: 0.88rem;
+      margin-top: 2px;
+      margin-bottom: 10px;
+    }
+    ul.bullets {
+      margin: 0;
+      padding-left: 20px;
+    }
+    ul.bullets li {
+      margin-bottom: 8px;
+      font-size: 0.92rem;
+      color: var(--text);
+    }
+    ul.bullets li:last-child { margin-bottom: 0; }
+
+    .proj-stack {
+      color: var(--muted);
+      font-size: 0.82rem;
+      margin-bottom: 8px;
+    }
+    .proj-link {
+      color: var(--accent);
+      font-size: 0.82rem;
+      text-decoration: none;
+    }
+    .proj-link:hover { text-decoration: underline; }
+
+    .skills-group { margin-bottom: 14px; }
+    .skills-group:last-child { margin-bottom: 0; }
+    .skills-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+    .stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .stack span {
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.78rem;
+    }
+
+    footer {
+      margin-top: 56px;
+      color: var(--muted);
+      font-size: 0.8rem;
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <h1>Prashant Paddune</h1>
+    <p class="role">Senior Software Engineer</p>
+    <p class="location">Mumbai, India</p>
+
+    <div class="links">
+      <a class="primary" href="./Prashant_Paddune–Senior_Software_Engineer.pdf">View Resume (PDF)</a>
+      <a href="https://linkedin.com/in/prashantp01">LinkedIn</a>
+      <a href="https://github.com/prashantpaddune">GitHub</a>
+      <a href="mailto:padadunep@gmail.com">Email</a>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <section>
+      <div class="section-title">Experience</div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <span class="entry-title">Frontend Engineer, Altrata</span>
+          <span class="entry-date">Jan 2024 — Present</span>
+        </div>
+        <div class="entry-sub">Remote</div>
+        <ul class="bullets">
+          <li>Built 5 core product modules in React.js and TypeScript, including a heavy dashboard, implementing global state management, WCAG-compliant accessibility, and unit testing.</li>
+          <li>Established performance observability using Datadog and Lighthouse across 3 geographic regions, tracking Core Web Vitals to prevent regressions.</li>
+          <li>Led the migration of 6 standalone product frontends into a unified monorepo, standardizing the shared component library and routing layer.</li>
+          <li>Engineered an internal library of AI agent skills — Product Owner, Code Executor, and QA Tester agents — using custom instructions and MCP integrations to automate ticket writing, Figma-to-code generation, and E2E tests.</li>
+          <li>Integrated SonarQube into the PR workflow, generating automated security reports and remediation guidance as inline comments.</li>
+          <li>Containerized test dependencies using Docker to run Playwright and BrowserStack E2E suites in GitHub Actions, cutting execution times by 80% and eliminating flaky test failures.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <span class="entry-title">SDE II, Cogoport</span>
+          <span class="entry-date">Aug 2021 — Dec 2023</span>
+        </div>
+        <div class="entry-sub">Mumbai, India</div>
+        <ul class="bullets">
+          <li>Built an internal React component library from scratch with 37 reusable components and a custom icon system, adopted by all product teams.</li>
+          <li>Developed a React and Node.js-based learning management system with an in-house code compiler for structured onboarding, adopted by over 120 engineers company-wide.</li>
+          <li>Led 10 frontend engineers across Performance and SEO sub-teams, owning the technical roadmap and code reviews.</li>
+          <li>Migrated the build toolchain from Webpack to SWC, reducing build times from 4 minutes to under 10 seconds.</li>
+          <li>Increased daily organic traffic from 2,000 to over 6,500 users via technical SEO and Core Web Vitals fixes, ranking multiple pages in Google's top 5.</li>
+          <li>Integrated a subscription billing system and 4 payment gateways (Stripe, Chargebee, BillDesk, Razorpay) with webhook handling.</li>
+          <li>Designed a multilingual CMS with real-time REST API endpoints supporting 36 languages, eliminating engineering tickets for content updates.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section>
+      <div class="section-title">Projects</div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <span class="entry-title">CDE</span>
+          <span class="entry-date">2023</span>
+        </div>
+        <div class="proj-stack">React.js, WebContainers</div>
+        <ul class="bullets">
+          <li>Developed a browser-native IDE using WebContainers to run Node.js, execute terminal commands, and write to a live filesystem entirely on the client-side.</li>
+        </ul>
+        <a class="proj-link" href="https://github.com/prashantpaddune/CDE">github.com/prashantpaddune/CDE</a>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <span class="entry-title">Drive2Park</span>
+          <span class="entry-date">2021</span>
+        </div>
+        <div class="proj-stack">React.js, Node.js, Express.js, MongoDB, PWA</div>
+        <ul class="bullets">
+          <li>Developed a real-time parking PWA to query live occupancy data and render responsive mobile interfaces.</li>
+        </ul>
+        <a class="proj-link" href="https://github.com/prashantpaddune/Drive2park">github.com/prashantpaddune/Drive2park</a>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section>
+      <div class="section-title">Technical Skills</div>
+
+      <div class="skills-group">
+        <div class="skills-label">Front-End</div>
+        <div class="stack">
+          <span>React</span><span>Next.js</span><span>TypeScript</span><span>JavaScript</span>
+          <span>HTML5/CSS3</span><span>Tailwind CSS</span><span>shadcn/ui</span>
+          <span>TanStack Query</span><span>TanStack Table</span><span>TanStack Virtual</span>
+          <span>Redux</span><span>Zustand</span><span>React Flow</span><span>ECharts</span>
+          <span>Recharts</span><span>React Native</span>
+        </div>
+      </div>
+
+      <div class="skills-group">
+        <div class="skills-label">Testing</div>
+        <div class="stack">
+          <span>Playwright</span><span>Cypress</span><span>Jest</span><span>Vitest</span>
+          <span>React Testing Library</span><span>Storybook</span><span>Chromatic</span><span>BrowserStack</span>
+        </div>
+      </div>
+
+      <div class="skills-group">
+        <div class="skills-label">DevOps</div>
+        <div class="stack">
+          <span>CI/CD</span><span>GitHub Actions</span><span>Docker</span><span>Kubernetes</span>
+          <span>AWS</span><span>Vercel</span><span>Datadog</span><span>Sentry</span>
+          <span>Lighthouse</span><span>SonarQube</span>
+        </div>
+      </div>
+
+      <div class="skills-group">
+        <div class="skills-label">Back-End</div>
+        <div class="stack">
+          <span>Node.js</span><span>Express.js</span><span>Python</span><span>Fastify</span>
+          <span>GraphQL</span><span>REST APIs</span><span>PostgreSQL</span><span>MongoDB</span>
+          <span>Prisma</span><span>Zod</span>
+        </div>
+      </div>
+
+      <div class="skills-group">
+        <div class="skills-label">AI / Agentic</div>
+        <div class="stack">
+          <span>Model Context Protocol</span><span>LangChain</span><span>LangGraph</span>
+          <span>Neo4j</span><span>Vector Search</span>
+        </div>
+      </div>
+
+      <div class="skills-group">
+        <div class="skills-label">Tools</div>
+        <div class="stack">
+          <span>Figma</span><span>JIRA</span><span>Confluence</span><span>Git</span>
+          <span>Cursor</span><span>Claude Code</span><span>Claude Cowork</span>
+          <span>GitHub Copilot</span><span>Antigravity</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section>
+      <div class="section-title">Education</div>
+      <div class="entry">
+        <div class="entry-header">
+          <span class="entry-title">Patkar Varde College</span>
+          <span class="entry-date">2018 — 2021</span>
+        </div>
+        <div class="entry-sub">Bachelor of Computer Applications (BCA)</div>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2026 Prashant Paddune
+    </footer>
+  </div>
+</body>
+</html>
